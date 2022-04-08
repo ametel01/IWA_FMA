@@ -1,0 +1,54 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+}
+
+#pagewrapper {
+	border: none;
+	width: 80%;
+	margin: 0.75rem auto;
+}
+
+
+
+section {
+	border: 1px solid lightgrey;
+}
+
+header {
+	border: 1px solid lightgrey;
+}
+
+#primarynav {
+	background-color: none;
+	text-align: center;
+}
+
+#primarynav li {
+	list-style: none;
+	display: inline-block;
+}
+
+#primarynav a {
+	text-decoration: none;
+	padding: 0.5rem;
+	display: inline-block;
+	border-right: 1px solid lightgrey;
+	text-align: center;
+	min-width: 100px;
+}
+
+#primarynav li:first-child a {
+	border-left: 1px solid lightgrey;
+}
+
+#secondarynav li {
+	list-style: none;
+	border-bottom: 2px solid #1b3e3e;
+	width: 80%;
+}
+
+img {
+	width: 100%;
+}
