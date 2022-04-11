@@ -9,6 +9,7 @@ body {
     font-size: 1.1875rem;
     line-height: 1.9375rem;
     letter-spacing: normal;
+    background: #e4f1fe;
 }
 
 #pagewrapper {
@@ -18,7 +19,7 @@ body {
 }
 
 h1 { 
-	font-size: 45px; 
+	font-size: 55px; 
 	font-weight: bold; 
 	line-height: 48px; 
 	text-align: center;
@@ -79,18 +80,27 @@ clear: both;
 }
 
 #front img {
-	max-width: 100%;
-	border-radius: 10px;
-  	height: auto;
-  	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
+	position: relative;
+  	left: 50%;
+  	right: 50%;
+  	margin-left: -50vw;
+  	margin-right: -50vw;
+  	max-width: 100vw;
+  	width: 100vw;
   	
 }
 
 #primarynav {
-	background-color: none;
+	padding: 10px;
+	background: #34495e; 
 	text-align: center;
+	position: relative;
+  	left: 50%;
+  	right: 50%;
+  	margin-left: -50vw;
+  	margin-right: -50vw;
+  	max-width: 100vw;
+  	width: 100vw;
 }
 
 #primarynav li {
@@ -99,16 +109,17 @@ clear: both;
 }
 
 #primarynav a {
+	color: white;
 	text-decoration: none;
 	padding: 0.5rem;
 	display: inline-block;
-	border-right: 1px solid lightgrey;
+	border-right: none;
 	text-align: center;
 	min-width: 100px;
 }
 
 #primarynav li:first-child a {
-	border-left: 1px solid lightgrey;
+	border-left: none;
 }
 
 #secondarynav li {
